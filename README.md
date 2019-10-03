@@ -12,3 +12,4 @@ $ ./installArduinoIDE.sh
 Initial Release October, 2019
 * L4T 32.2.1 / JetPack 4.2.2
 * Installs Arduino IDE 1.8.10
+* Tested on Jetson Nano
