@@ -14,5 +14,5 @@ wget -N https://downloads.arduino.cc/arduino-$ARDUINO_VERSION-linuxaarch64.tar.x
 tar -C $INSTALL_DIR/ -xvf arduino-${ARDUINO_VERSION}-linuxaarch64.tar.xz
 cd $INSTALL_DIR/arduino-${ARDUINO_VERSION}
 sudo ./install.sh
-sudo ./arduino-linux-setup.sh $USER
+./arduino-linux-setup.sh "$USER"
 echo "You can delete the tar file if desired: arduino-"${ARDUINO_VERSION}"-linuxaarch64.tar.xz"
