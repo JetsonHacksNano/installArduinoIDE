@@ -6,8 +6,8 @@
 # variables to your liking
 
 INSTALL_DIR=${HOME}
-# Direct Jetson support starts at 1.8.10
-ARDUINO_VERSION=1.8.10
+# Direct Jetson support starts at 1.8.15
+ARDUINO_VERSION=1.8.15
 
 # Only download if newer version exists
 wget -N https://downloads.arduino.cc/arduino-$ARDUINO_VERSION-linuxaarch64.tar.xz
